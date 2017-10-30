@@ -8,11 +8,11 @@ pada user. Namun pada fungsi ini notification akan terdestroy manakala sudah dit
 Cara Penggunaan
 =================
 Untuk set notification dilakukan dengan cara
-<?php $this->session->set_notification("Pesan yang ditampilkan", "danger|success|warning|info"); ?>
+```<?php $this->session->set_notification("Pesan yang ditampilkan", "danger|success|warning|info"); ?>```
 
 Untuk menampilkanya dengan cara berikut
-<?php echo $this->session->show_notification(); ?>
+```<?php echo $this->session->show_notification(); ?>```
 
 untuk HTML yang di generate menggunakan template bootstrap alert
-<div class="alert alert-danger|success|warning|info">Pesan yang ditampilkan</div>
+```<div class="alert alert-danger|success|warning|info">Pesan yang ditampilkan</div>```
 
